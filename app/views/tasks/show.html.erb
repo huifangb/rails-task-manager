@@ -1,0 +1,9 @@
+<h1 class="header">Task Details</h1>
+<div class="list">
+  <h3><%= @task.title %></h3>
+  <p><%= @task.details %></p>
+</div>
+
+
+<%= link_to "Edit Task", edit_path(@task) %> | <%= link_to "Back",  tasks_path %>
+
